@@ -1,5 +1,8 @@
 # Release notes
 
+## 2.5.3
+- transition to new license key format
+
 ## 2.5.2
 - Various bugfixes and performance improvements, especially when scanning uncertain barcodes
 

@@ -149,9 +149,8 @@
      Set your license key here.
      This license key allows setting overlay views for this application ID: net.photopay.barcode.pdf417-sample
      To test your custom overlays, please use this demo app directly or visit our website www.pdf417.mobi for commercial license
-     */
-    [coordinatorSettings setValue:@"1672a675bc3f3697c404a87aed640c8491b26a4522b9d4a2b61ad6b225e3b390d58d662131708451890b33"
-                           forKey:kPPLicenseKey];
+     */   
+    [coordinatorSettings setValue:@"ZSUP-MHGE-7YSF-7YYQ-EBTH-L62W-SVSL-QASU" forKey:kPPLicenseKey];
     
     // present modal (recommended and default) - make sure you dismiss the view controller when done
     // you also can set this to NO and push camera view controller to navigation view controller
