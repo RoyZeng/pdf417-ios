@@ -25,14 +25,16 @@
 		1818D870174E20B000136FD2 /* libiconv.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 1818D86E174E20A800136FD2 /* libiconv.dylib */; };
 		1818D873174E213D00136FD2 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1818D871174E213500136FD2 /* OpenGLES.framework */; };
 		1818D876174E218F00136FD2 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1818D874174E218300136FD2 /* QuartzCore.framework */; };
-		18562B2118677EA200A0355B /* pdf417.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 18562B1818677EA200A0355B /* pdf417.framework */; };
-		18562B2218677EA200A0355B /* de.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18562B1A18677EA200A0355B /* de.strings */; };
-		18562B2318677EA200A0355B /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18562B1B18677EA200A0355B /* en.strings */; };
-		18562B2418677EA200A0355B /* hr.strings in Resources */ = {isa = PBXBuildFile; fileRef = 18562B1C18677EA200A0355B /* hr.strings */; };
-		18562B2518677EA200A0355B /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 18562B1D18677EA200A0355B /* light.png */; };
-		18562B2618677EA200A0355B /* light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18562B1E18677EA200A0355B /* light@2x.png */; };
-		18562B2718677EA200A0355B /* lighton.png in Resources */ = {isa = PBXBuildFile; fileRef = 18562B1F18677EA200A0355B /* lighton.png */; };
-		18562B2818677EA200A0355B /* lighton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 18562B2018677EA200A0355B /* lighton@2x.png */; };
+		185032341AE8EF1F00644F77 /* libpdf417.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1850322A1AE8EF1F00644F77 /* libpdf417.a */; };
+		185032351AE8EF1F00644F77 /* de.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1850322C1AE8EF1F00644F77 /* de.strings */; };
+		185032361AE8EF1F00644F77 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1850322D1AE8EF1F00644F77 /* en.strings */; };
+		185032371AE8EF1F00644F77 /* hr.strings in Resources */ = {isa = PBXBuildFile; fileRef = 1850322E1AE8EF1F00644F77 /* hr.strings */; };
+		185032381AE8EF1F00644F77 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 1850322F1AE8EF1F00644F77 /* Info.plist */; };
+		185032391AE8EF1F00644F77 /* light.png in Resources */ = {isa = PBXBuildFile; fileRef = 185032301AE8EF1F00644F77 /* light.png */; };
+		1850323A1AE8EF1F00644F77 /* light@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185032311AE8EF1F00644F77 /* light@2x.png */; };
+		1850323B1AE8EF1F00644F77 /* lighton.png in Resources */ = {isa = PBXBuildFile; fileRef = 185032321AE8EF1F00644F77 /* lighton.png */; };
+		1850323C1AE8EF1F00644F77 /* lighton@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 185032331AE8EF1F00644F77 /* lighton@2x.png */; };
+		1850323E1AE8F1D400644F77 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1850323D1AE8F1D400644F77 /* AssetsLibrary.framework */; };
 		188175F217FC351F0077AC76 /* libc++.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 188175F117FC351F0077AC76 /* libc++.dylib */; };
 		188AA358197D05D5008A7526 /* PPImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 188AA356197D05D5008A7526 /* PPImageViewController.m */; };
 		188AA359197D05D5008A7526 /* PPImageViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 188AA357197D05D5008A7526 /* PPImageViewController.xib */; };
@@ -71,14 +73,31 @@
 		1818D86E174E20A800136FD2 /* libiconv.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libiconv.dylib; path = usr/lib/libiconv.dylib; sourceTree = SDKROOT; };
 		1818D871174E213500136FD2 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
 		1818D874174E218300136FD2 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
-		18562B1818677EA200A0355B /* pdf417.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = pdf417.framework; sourceTree = "<group>"; };
-		18562B1A18677EA200A0355B /* de.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = de.strings; sourceTree = "<group>"; };
-		18562B1B18677EA200A0355B /* en.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = en.strings; sourceTree = "<group>"; };
-		18562B1C18677EA200A0355B /* hr.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = hr.strings; sourceTree = "<group>"; };
-		18562B1D18677EA200A0355B /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light.png; sourceTree = "<group>"; };
-		18562B1E18677EA200A0355B /* light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light@2x.png"; sourceTree = "<group>"; };
-		18562B1F18677EA200A0355B /* lighton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lighton.png; sourceTree = "<group>"; };
-		18562B2018677EA200A0355B /* lighton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lighton@2x.png"; sourceTree = "<group>"; };
+		1850321A1AE8EF1F00644F77 /* PPApp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPApp.h; sourceTree = "<group>"; };
+		1850321B1AE8EF1F00644F77 /* PPBarcode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPBarcode.h; sourceTree = "<group>"; };
+		1850321C1AE8EF1F00644F77 /* PPBarcodeCoordinator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPBarcodeCoordinator.h; sourceTree = "<group>"; };
+		1850321D1AE8EF1F00644F77 /* PPBaseOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPBaseOverlayViewController.h; sourceTree = "<group>"; };
+		1850321E1AE8EF1F00644F77 /* PPBaseResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPBaseResult.h; sourceTree = "<group>"; };
+		1850321F1AE8EF1F00644F77 /* PPDetectionStatus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPDetectionStatus.h; sourceTree = "<group>"; };
+		185032201AE8EF1F00644F77 /* PPModernBaseOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPModernBaseOverlayViewController.h; sourceTree = "<group>"; };
+		185032211AE8EF1F00644F77 /* PPModernOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPModernOverlayViewController.h; sourceTree = "<group>"; };
+		185032221AE8EF1F00644F77 /* PPOverlaySubview.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOverlaySubview.h; sourceTree = "<group>"; };
+		185032231AE8EF1F00644F77 /* PPOverlayViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPOverlayViewController.h; sourceTree = "<group>"; };
+		185032241AE8EF1F00644F77 /* PPResultDataSourceAdapter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPResultDataSourceAdapter.h; sourceTree = "<group>"; };
+		185032251AE8EF1F00644F77 /* PPScanningResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPScanningResult.h; sourceTree = "<group>"; };
+		185032261AE8EF1F00644F77 /* PPScanningViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPScanningViewController.h; sourceTree = "<group>"; };
+		185032271AE8EF1F00644F77 /* PPSettings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPSettings.h; sourceTree = "<group>"; };
+		185032281AE8EF1F00644F77 /* PPUSDLResult.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPUSDLResult.h; sourceTree = "<group>"; };
+		1850322A1AE8EF1F00644F77 /* libpdf417.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libpdf417.a; sourceTree = "<group>"; };
+		1850322C1AE8EF1F00644F77 /* de.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = de.strings; sourceTree = "<group>"; };
+		1850322D1AE8EF1F00644F77 /* en.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = en.strings; sourceTree = "<group>"; };
+		1850322E1AE8EF1F00644F77 /* hr.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = hr.strings; sourceTree = "<group>"; };
+		1850322F1AE8EF1F00644F77 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = Info.plist; sourceTree = "<group>"; };
+		185032301AE8EF1F00644F77 /* light.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = light.png; sourceTree = "<group>"; };
+		185032311AE8EF1F00644F77 /* light@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "light@2x.png"; sourceTree = "<group>"; };
+		185032321AE8EF1F00644F77 /* lighton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = lighton.png; sourceTree = "<group>"; };
+		185032331AE8EF1F00644F77 /* lighton@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "lighton@2x.png"; sourceTree = "<group>"; };
+		1850323D1AE8F1D400644F77 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
 		188175F117FC351F0077AC76 /* libc++.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = "libc++.dylib"; path = "usr/lib/libc++.dylib"; sourceTree = SDKROOT; };
 		188AA355197D05D5008A7526 /* PPImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PPImageViewController.h; sourceTree = "<group>"; };
 		188AA356197D05D5008A7526 /* PPImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PPImageViewController.m; sourceTree = "<group>"; };
@@ -107,6 +126,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1850323E1AE8F1D400644F77 /* AssetsLibrary.framework in Frameworks */,
 				188175F217FC351F0077AC76 /* libc++.dylib in Frameworks */,
 				1818D876174E218F00136FD2 /* QuartzCore.framework in Frameworks */,
 				1818D870174E20B000136FD2 /* libiconv.dylib in Frameworks */,
@@ -114,7 +134,7 @@
 				1818D868174E1B8800136FD2 /* CoreMedia.framework in Frameworks */,
 				1818D873174E213D00136FD2 /* OpenGLES.framework in Frameworks */,
 				1818D865174E17B800136FD2 /* AudioToolbox.framework in Frameworks */,
-				18562B2118677EA200A0355B /* pdf417.framework in Frameworks */,
+				185032341AE8EF1F00644F77 /* libpdf417.a in Frameworks */,
 				1818D862174E17A500136FD2 /* AVFoundation.framework in Frameworks */,
 				1818D82C174D146F00136FD2 /* UIKit.framework in Frameworks */,
 				1818D82E174D146F00136FD2 /* Foundation.framework in Frameworks */,
@@ -145,9 +165,10 @@
 		1818D82A174D146F00136FD2 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				18562B1718677EA200A0355B /* pdf417.embeddedframework */,
+				185032171AE8EF1F00644F77 /* libPdf417 */,
 				188175F117FC351F0077AC76 /* libc++.dylib */,
 				1818D86E174E20A800136FD2 /* libiconv.dylib */,
+				1850323D1AE8F1D400644F77 /* AssetsLibrary.framework */,
 				1818D863174E17AA00136FD2 /* AudioToolbox.framework */,
 				1818D860174E179E00136FD2 /* AVFoundation.framework */,
 				1818D869174E1B8F00136FD2 /* CoreVideo.framework */,
@@ -193,28 +214,68 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		18562B1718677EA200A0355B /* pdf417.embeddedframework */ = {
+		185032171AE8EF1F00644F77 /* libPdf417 */ = {
 			isa = PBXGroup;
 			children = (
-				18562B1818677EA200A0355B /* pdf417.framework */,
-				18562B1918677EA200A0355B /* Resources */,
+				185032181AE8EF1F00644F77 /* inc */,
+				185032291AE8EF1F00644F77 /* lib */,
+				1850322B1AE8EF1F00644F77 /* res */,
 			);
-			name = pdf417.embeddedframework;
-			path = ../pdf417.embeddedframework;
+			name = libPdf417;
+			path = ../libPdf417;
 			sourceTree = "<group>";
 		};
-		18562B1918677EA200A0355B /* Resources */ = {
+		185032181AE8EF1F00644F77 /* inc */ = {
 			isa = PBXGroup;
 			children = (
-				18562B1A18677EA200A0355B /* de.strings */,
-				18562B1B18677EA200A0355B /* en.strings */,
-				18562B1C18677EA200A0355B /* hr.strings */,
-				18562B1D18677EA200A0355B /* light.png */,
-				18562B1E18677EA200A0355B /* light@2x.png */,
-				18562B1F18677EA200A0355B /* lighton.png */,
-				18562B2018677EA200A0355B /* lighton@2x.png */,
+				185032191AE8EF1F00644F77 /* pdf417 */,
 			);
-			path = Resources;
+			path = inc;
+			sourceTree = "<group>";
+		};
+		185032191AE8EF1F00644F77 /* pdf417 */ = {
+			isa = PBXGroup;
+			children = (
+				1850321A1AE8EF1F00644F77 /* PPApp.h */,
+				1850321B1AE8EF1F00644F77 /* PPBarcode.h */,
+				1850321C1AE8EF1F00644F77 /* PPBarcodeCoordinator.h */,
+				1850321D1AE8EF1F00644F77 /* PPBaseOverlayViewController.h */,
+				1850321E1AE8EF1F00644F77 /* PPBaseResult.h */,
+				1850321F1AE8EF1F00644F77 /* PPDetectionStatus.h */,
+				185032201AE8EF1F00644F77 /* PPModernBaseOverlayViewController.h */,
+				185032211AE8EF1F00644F77 /* PPModernOverlayViewController.h */,
+				185032221AE8EF1F00644F77 /* PPOverlaySubview.h */,
+				185032231AE8EF1F00644F77 /* PPOverlayViewController.h */,
+				185032241AE8EF1F00644F77 /* PPResultDataSourceAdapter.h */,
+				185032251AE8EF1F00644F77 /* PPScanningResult.h */,
+				185032261AE8EF1F00644F77 /* PPScanningViewController.h */,
+				185032271AE8EF1F00644F77 /* PPSettings.h */,
+				185032281AE8EF1F00644F77 /* PPUSDLResult.h */,
+			);
+			path = pdf417;
+			sourceTree = "<group>";
+		};
+		185032291AE8EF1F00644F77 /* lib */ = {
+			isa = PBXGroup;
+			children = (
+				1850322A1AE8EF1F00644F77 /* libpdf417.a */,
+			);
+			path = lib;
+			sourceTree = "<group>";
+		};
+		1850322B1AE8EF1F00644F77 /* res */ = {
+			isa = PBXGroup;
+			children = (
+				1850322C1AE8EF1F00644F77 /* de.strings */,
+				1850322D1AE8EF1F00644F77 /* en.strings */,
+				1850322E1AE8EF1F00644F77 /* hr.strings */,
+				1850322F1AE8EF1F00644F77 /* Info.plist */,
+				185032301AE8EF1F00644F77 /* light.png */,
+				185032311AE8EF1F00644F77 /* light@2x.png */,
+				185032321AE8EF1F00644F77 /* lighton.png */,
+				185032331AE8EF1F00644F77 /* lighton@2x.png */,
+			);
+			path = res;
 			sourceTree = "<group>";
 		};
 		188ABB6618719BEC00A51D43 /* Overlays */ = {
@@ -308,21 +369,22 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				18562B2518677EA200A0355B /* light.png in Resources */,
+				1850323C1AE8EF1F00644F77 /* lighton@2x.png in Resources */,
 				1818D836174D146F00136FD2 /* InfoPlist.strings in Resources */,
 				188ABB6D18719BEC00A51D43 /* PPCameraOverlayViewController.xib in Resources */,
-				18562B2618677EA200A0355B /* light@2x.png in Resources */,
-				18562B2718677EA200A0355B /* lighton.png in Resources */,
 				1818D83E174D146F00136FD2 /* Default.png in Resources */,
+				1850323B1AE8EF1F00644F77 /* lighton.png in Resources */,
+				185032351AE8EF1F00644F77 /* de.strings in Resources */,
+				185032371AE8EF1F00644F77 /* hr.strings in Resources */,
+				185032391AE8EF1F00644F77 /* light.png in Resources */,
 				1818D840174D146F00136FD2 /* Default@2x.png in Resources */,
 				1818D842174D146F00136FD2 /* Default-568h@2x.png in Resources */,
-				18562B2418677EA200A0355B /* hr.strings in Resources */,
 				1818D855174D14DB00136FD2 /* PPRootViewController.xib in Resources */,
-				18562B2318677EA200A0355B /* en.strings in Resources */,
+				1850323A1AE8EF1F00644F77 /* light@2x.png in Resources */,
+				185032381AE8EF1F00644F77 /* Info.plist in Resources */,
 				18C1114818345DF80004CFFD /* beep.mp3 in Resources */,
-				18562B2818677EA200A0355B /* lighton@2x.png in Resources */,
-				18562B2218677EA200A0355B /* de.strings in Resources */,
 				188AA359197D05D5008A7526 /* PPImageViewController.xib in Resources */,
+				185032361AE8EF1F00644F77 /* en.strings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,13 +486,22 @@
 		1818D84F174D146F00136FD2 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					../pdf417.embeddedframework,
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pdf417-sample/pdf417-sample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../libPdf417/inc,
+				);
 				INFOPLIST_FILE = "pdf417-sample/pdf417-sample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../libPdf417/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lpdf417",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -439,13 +510,22 @@
 		1818D850174D146F00136FD2 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				FRAMEWORK_SEARCH_PATHS = (
-					"$(inherited)",
-					../pdf417.embeddedframework,
-				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "pdf417-sample/pdf417-sample-Prefix.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					../libPdf417/inc,
+				);
 				INFOPLIST_FILE = "pdf417-sample/pdf417-sample-Info.plist";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					../libPdf417/lib,
+				);
+				OTHER_LDFLAGS = (
+					"-lpdf417",
+					"-ObjC",
+				);
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
